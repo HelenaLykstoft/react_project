@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import Person from "./Person.jsx";
+import User from "./User.jsx";
 
 
 function Address(addr) {

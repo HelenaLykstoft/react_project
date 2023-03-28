@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/App.css'
-import Person from "./components/Person.jsx";
+import User from "./components/User.jsx";
 import Address from "./components/Address.jsx";
-import PersonList from "./components/PersonList.jsx";
+import UserList from "./components/UserList.jsx";
 import Counter from "./components/Counter.jsx";
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
     <div style={background}>
       <h2>Hello from {fname}!</h2>
       <p>This is a paragraph</p>
-        <PersonList persons={users}/>
+        <UserList users={users}/>
         {/*<Address addr={address}/>*/}
         <Counter count={count} setCount={setCount}/>
     </div>
